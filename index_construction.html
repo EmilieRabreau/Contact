@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fbf7f0">
+<meta name="description" content="Emilie Rabreau, facilitatrice de transformations et cheffe de projet indépendante. J'aide les organisations à faire avancer leurs projets avec clarté, efficacité et engagement collectif.">
+<title>Emilie Rabreau — Facilitatrice de transformations & cheffe de projet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--cream:#fbf7f0;--pink:#e3b6cc;--peach:#f2c890;--plum:#76516f;--ink:#3f3540;--orange:#e97845;--white:#fffdf9}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif;line-height:1.65}
+h1,h2,h3,.brand,.eyebrow{font-family:"Comfortaa",sans-serif} a{color:inherit}
+.wrap{width:min(1120px,calc(100% - 48px));margin:auto}
+header{position:sticky;top:0;z-index:5;background:rgba(251,247,240,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(118,81,111,.12)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-size:20px;font-weight:700;color:var(--plum);text-decoration:none;letter-spacing:-1px}.brand span{color:var(--orange)}
+nav{display:flex;gap:26px;align-items:center}nav a{text-decoration:none;font-size:13px;color:var(--plum);font-weight:600}nav a:hover{color:var(--orange)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border-radius:99px;background:var(--plum);color:white;text-decoration:none;font-weight:700;font-size:14px;transition:.2s;box-shadow:0 8px 20px #76516f20}.btn:hover{transform:translateY(-2px);background:var(--orange)}
+.btn.light{background:var(--white);color:var(--plum);border:1px solid var(--pink);box-shadow:none}
+.hero{position:relative;overflow:hidden;padding:86px 0 92px;background:linear-gradient(120deg,var(--cream) 0%,#fffaf4 65%,#f8e8e8 100%)}
+.hero:before{content:"";position:absolute;width:420px;height:420px;border:1px solid var(--pink);border-radius:50%;right:-160px;top:-180px;box-shadow:0 0 0 22px #e3b6cc18,0 0 0 48px #e3b6cc12}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:60px;position:relative}
+.kicker{display:inline-flex;align-items:center;gap:20px;color:var(--orange);font:900 22px "Comfortaa";letter-spacing:2px;line-height:1.5;text-transform:uppercase}.kicker:before{content:"";width:28px;height:5px;background:var(--orange)}
+h1{font-size:clamp(36px,5vw,50px);line-height:1.14;letter-spacing:-2.5px;color:var(--plum);margin:20px 0}
+h1 em{font-style:normal;color:var(--orange)}.lead{font-size:16px;line-height:1.7;max-width:650px;color:#625664}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.micro{font-size:12px;color:#8b7786;margin-top:20px}
+.portrait-wrap{justify-self:center;position:relative;width:min(330px,80%);aspect-ratio:1;border-radius:50%;padding:12px;background:var(--peach);box-shadow:18px 18px 0 var(--pink)}
+.portrait-wrap img{width:100%;height:100%;object-fit:cover;border-radius:50%;border:8px solid var(--cream)}
+.sticker{position:absolute;bottom:2px;left:-34px;background:var(--plum);color:white;padding:12px 18px;border-radius:30px;font:600 12px "Comfortaa";transform:rotate(-7deg);box-shadow:0 8px 18px #76516f30}
+.sticker2{position:absolute;bottom:50px;left:-60px;background:var(--plum);color:white;padding:12px 18px;border-radius:30px;font:600 12px "Comfortaa";transform:rotate(-7deg);box-shadow:0 8px 18px #76516f30}
+.ribbon{background:var(--peach);padding:22px 0;color:var(--plum)}.ribbon-inner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;font:600 13px "Comfortaa";letter-spacing:.2px}.ribbon span:before{content:"✳";color:var(--orange);margin-right:9px}
+section{padding:88px 0}.section-head{max-width:700px;margin-bottom:42px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:2px;color:var(--orange);font-weight:700}
+h2{font-size:clamp(28px,4vw,42px);line-height:1.2;color:var(--plum);margin:12px 0 16px;letter-spacing:-1.4px}.section-head p{color:#746875;font-size:16px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--white);border:1px solid #eadce2;border-radius:22px;padding:28px;min-height:250px;box-shadow:0 12px 35px #76516f08}
+.card .num{font:700 13px "Comfortaa";color:var(--orange);background:#fdf0e3;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;margin-bottom:22px}
+.card h3{font-size:19px;color:var(--plum);line-height:1.35;margin:0 0 12px}.card p{font-size:14px;color:#716775;margin:0}
+.soft{background:#f6edf0}
+.split{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:start}
+.quote{font:500 22px/1.55 "Comfortaa";color:var(--plum);border-left:4px solid var(--peach);padding:4px 0 4px 24px;margin:22px 0}
+.pill-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.pill{background:#fffdf9;border:1px solid #eadce2;color:var(--plum);padding:9px 14px;border-radius:30px;font-size:12px;font-weight:600}
+.results{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:30px}
+.result{padding:22px 18px;border-radius:18px;background:var(--white);border:1px solid #eadce2}
+.result strong{display:block;font:700 clamp(25px,3vw,38px) "Comfortaa";color:var(--orange);letter-spacing:-1px}.result span{font-size:12px;color:#746875;display:block;margin-top:8px;line-height:1.4}
+.case-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.case{background:var(--white);border-radius:20px;padding:26px;border:1px solid #eadce2}
+.case h3{font-size:18px;color:var(--plum);margin:0 0 10px}.case p{font-size:14px;color:#716775;margin:0 0 14px}.case b{color:var(--orange)}
+.method{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;counter-reset:step}
+.step{padding:22px 18px;border-top:3px solid var(--peach);background:#fffdf9;border-radius:0 0 16px 16px}
+.step:before{counter-increment:step;content:"0" counter(step);font:700 22px "Comfortaa";color:var(--pink)}
+.step h3{font-size:16px;color:var(--plum);margin:14px 0 8px}.step p{font-size:13px;color:#746875;margin:0}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.about-panel{background:var(--pink);border-radius:28px;padding:34px;position:relative;overflow:hidden}
+.about-panel:after{content:"ER";position:absolute;right:14px;bottom:-28px;font:700 110px "Comfortaa";color:#ffffff55}
+.about-panel p{position:relative;z-index:1;color:#604a60;font-size:17px}
+.contact{background:var(--plum);color:white;text-align:center;padding:82px 0;position:relative;overflow:hidden}
+.contact h2{color:white;max-width:720px;margin:14px auto}.contact p{color:#f1e6ed;max-width:600px;margin:0 auto 28px}.contact .eyebrow{color:var(--peach)}
+.contact .btn{background:var(--peach);color:var(--plum)}.contact-links{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin-top:24px;font-size:14px}.contact-links a{color:white;text-decoration:none}
+footer{padding:24px 0;color:#8a7b87;font-size:12px}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:800px){nav{gap:12px}nav a:not(.btn){display:none}.hero{padding:64px 0}.hero-grid,.split,.about{grid-template-columns:1fr;gap:42px}.portrait-wrap{width:240px;grid-row:1}.cards{grid-template-columns:1fr}.results{grid-template-columns:repeat(2,1fr)}.method{grid-template-columns:repeat(2,1fr)}section{padding:64px 0}}
+@media(max-width:520px){.wrap{width:min(100% - 32px,1120px)}.nav{height:66px}.brand{font-size:17px}.nav>.btn{padding:10px 14px;font-size:12px}.hero-grid{gap:34px}h1{font-size:38px}.lead{font-size:16px}.case-grid{grid-template-columns:1fr}.results{gap:9px}.result{padding:17px 13px}.ribbon-inner{font-size:11px}.method{gap:9px}.step{padding:17px 14px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#accueil">e<span>r</span> · Emilie Rabreau</a>
+<nav><a href="#accompagnements">Mes services</a><a href="#realisations">Mes réalisations</a><a href="#apropos">Qui suis-je ?</a><a class="btn" href="#contact">Parlons de votre projet</a></nav>
+</div></header>
+
+<main>
+<section class="hero" id="accueil"><div class="wrap hero-grid">
+<div>
+<div class="kicker">En construction</div>
+</div>
+</div></section>
+
+<div class="ribbon"><div class="wrap ribbon-inner"></div></div>
+
+</main>
+<footer><div class="wrap foot"><span>© Emilie Rabreau — Facilitatrice des transformations & cheffe de projet indépendante</span></div></footer>
+</body></html>
